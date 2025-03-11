@@ -19,7 +19,7 @@
 
 /* Header Styling with Background Image */
 .hero-section {
-    background-image: url('image4.png'); /* Add your background image path */
+    background-image: url('./images/image4.png'); /* Add your background image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
