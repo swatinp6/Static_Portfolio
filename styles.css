@@ -1,0 +1,100 @@
+/* styles.css */
+
+/* Navbar Styling */
+.navbar {
+    background-color: plum !important;
+    background-image: url('navbar-bg.jpg'); /* Add your background image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #f8d210 !important;
+}
+
+/* Header Styling with Background Image */
+.hero-section {
+    background-image: url('image4.png'); /* Add your background image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* color: white; */
+    padding: 120px 0;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); */
+}
+
+/* Projects Styling */
+.project-card {
+    background: whitesmoke;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Contact Form Styling */
+#contact-form {
+    /* background-image: url(./image1.jpg);  */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #f8d210;
+    color: #333;
+}
+
+
+
+
+/* About Section */
+#about {
+    background-color: #16213e; /* Deep Blue */
+    color: white;
+    padding: 60px 0;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #0f3460; /* Mid Blue */
+    color: white;
+    padding: 60px 0;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #e94560; 
+    color: white;
+    padding: 60px 0;
+}
